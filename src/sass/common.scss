@@ -1,0 +1,56 @@
+/*text-align*/
+.tx-l {
+  text-align: left;
+}
+.tx-c {
+  text-align: center;
+}
+.tx-r {
+  text-align: right;
+}
+.tx-dt{
+  text-decoration: line-through;
+}
+
+/*float*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear {
+  overflow: hidden;
+}
+
+/*overflow*/
+.of{
+	overflow: hidden;
+}
+.of-y-a {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.of-x-a {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*display*/
+.bs{
+  box-sizing: border-box;
+}
+.db{
+	display: block;
+}
+.dib{
+	display: inline-block;
+}
+.df{
+	display: flex;
+}
+.dn{
+	display: none;
+}
