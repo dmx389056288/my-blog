@@ -1,3 +1,4 @@
+@import './mixin.scss';
 /*text-align*/
 .tx-l {
   text-align: left;
@@ -53,4 +54,7 @@
 }
 .dn{
 	display: none;
+}
+@for $i from 1 to 50 {
+  .fs#{$i} { font-size: #{$i/20}rem;}
 }
